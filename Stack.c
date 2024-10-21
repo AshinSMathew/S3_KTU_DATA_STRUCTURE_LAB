@@ -14,15 +14,13 @@ int main(){
 		printf("\n");
 		switch(opt){
 			case 1:
-				if (top==n){
+				if (top==n-1){
 					printf("Overflow");
 				}
 				else{
-					for (int i=0;i<n;i++){
-						printf("Enter elements (%d)",i+1);
-						scanf("%d",&stack[i]);
-						top++;
-					}
+				        top++;
+				        printf("Enter Element: ");
+					scanf("%d",&stack[top]);
 				}
 				break;
 			case 2:
