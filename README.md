@@ -35,8 +35,9 @@ This repository contains various C programs related to data structures, implemen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/data-structures-s3-ktu.git
-   cd data-structures-s3-ktu
+   git clone https://github.com/AshinSMathew/S3_KTU_DATA_STRUCTURE_LAB.git
+   cd S3_KTU_DATA_STRUCTURE_LAB
+
 2. Compile any C program:
    ```bash
    gcc -o output_file program_name.c
